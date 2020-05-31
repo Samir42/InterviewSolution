@@ -27,9 +27,9 @@ namespace Interview
 
         public static void PrintInReversedOrder(double numbToReverse)
         {
-            char[] reversedDouble = numbToReverse.ToString().Reverse().ToArray();
+            char[] reversedDoubleAsCharArray = numbToReverse.ToString().Reverse().ToArray();
 
-            string reversedDoubleAsString = new string(reversedDouble);
+            string reversedDoubleAsString = new string(reversedDoubleAsCharArray);
 
             Console.WriteLine(reversedDoubleAsString);
         }
